@@ -25,6 +25,8 @@ docker-composer down
 
 # git command
 git add -A [file]
+git add example.html (must in same folder directory to commit the changes)
+git add myfolder (with your folder path))
 git commit -m "initial commit"
 git push origin master
 git reset -q HEAD
