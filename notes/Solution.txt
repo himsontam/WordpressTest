@@ -24,8 +24,8 @@ touch docker-compose.yaml
 docker-composer down
 
 # git command
-git commit -m "initial commit"
 git add -A [file]
+git commit -m "initial commit"
 git push origin master
 git reset -q HEAD
 git reset -q HEAD -- /home/himson/Development/WordpressTest/wp-cron.php
