@@ -1,0 +1,28 @@
+
+Tutorial for this wordpres testing in docker:
+https://www.youtube.com/watch?v=pYhLEV-sRpY&ab_channel=TraversyMedia
+https://gist.github.com/bradtraversy/faa8de544c62eef3f31de406982f1d42
+https://qiita.com/vc7/items/e88026c75f2280f95ed4
+
+
+Error:
+himson@himsontam:~/Development/WordpressTest$ docker-compose up -d
+
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
+
+Got this error after edit docker-compose.yaml and run docker-compose up -d
+
+check this website to fix it : 
+https://oranwind.org/-solution-qi-dong-docker-compose-fa-sheng-error-couldnt-connect-to-docker-daemon-at-httpdockerlocalunixsocket-is-it-running-cuo-wu/
+
+Docker command to use:
+docker ps
+docker ps -a
+docker-compose up -d
+touch docker-compose.yaml
+docker-composer down
+
+git command
+git commit -m "initial commit"
+git push origin master
