@@ -51,3 +51,25 @@ git push -u origin main
 git remote add origin git@github.com:himsontam/test.git
 git branch -M main
 git push -u origin main
+
+
+#docker command to use in google cloud 
+docker
+curl https://get.docker.com > install-docker.sh
+ll
+chmod 755 ./install-docker.sh
+sudo ./install-docker.sh
+sudo usermod -aG docker username
+docker container ls
+logout ssh 
+login ssh
+docker container ls
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod 755 /usr/local/bin/docker-compose
+docker-compose --version
+ll
+git clone
+cd folder
+ll
+vi docker-compose.yml
+docker-compose up -d
