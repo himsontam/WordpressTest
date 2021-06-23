@@ -77,5 +77,3 @@ docker-compose up -d
 # Grant permission for git command or whole directory in vs code
 chown -R youruser .git/
 https://superuser.com/questions/334055/git-pulling-without-root-access
-
-TEST
