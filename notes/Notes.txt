@@ -22,6 +22,8 @@ docker ps -a
 docker-compose up -d
 touch docker-compose.yaml
 docker-composer down
+docker images -a
+docker rmi <your-image-id> <your-image-id> 
 
 # git command 
 git add -A [file]
